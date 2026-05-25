@@ -1,0 +1,10 @@
+---
+layout: post
+title: "Our PhD student Yilin presents her research at the European Navigation Conference 2026"
+date: 2026-04-28 00:00:00 +0800
+categories: news
+---
+
+![ENC 2026]({{ '/assets/images/April_30_2026.jpg' | relative_url }})
+
+Ms Yilin Fan attends the European Navigation Conference (ENC) 2026 in Vienna, Austria, and presents her research entitled "Enhancing Urban GNSS Measurement Accuracy: A Statistical 3D Mapping Aided NLOS Error Correction Framework". This study extends 3D mapping aided (3DMA) GNSS by a statistical process to estimate the corrections for non-line-of-sight reception errors in urban areas.
