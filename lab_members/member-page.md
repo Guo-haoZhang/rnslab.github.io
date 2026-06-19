@@ -35,11 +35,6 @@ title: Lab Members
         <h3>{{ member.name }}</h3>
         <p><strong>Position:</strong> {{ member.position }}</p>
         <p><strong>Expertise:</strong> {{ member.expertise }}</p>
-        <p><strong>Email:</strong>
-          {% if member.email == "tbc" %}TBC
-          {% else %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>
-          {% endif %}
-        </p>
       </div>
     </div>
     {% endif %}
@@ -57,11 +52,23 @@ title: Lab Members
         <h3>{{ member.name }}</h3>
         <p><strong>Position:</strong> {{ member.position }}</p>
         <p><strong>Expertise:</strong> {{ member.expertise }}</p>
-        <p><strong>Email:</strong>
-          {% if member.email == "tbc" %}TBC
-          {% else %}<a href="mailto:{{ member.email }}">{{ member.email }}</a>
-          {% endif %}
-        </p>
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Visiting Scholars -->
+<h2 class="member-subheader">Visiting Scholars</h2>
+<div class="members-list">
+  {% for member in site.data.member_data %}
+    {% if member.role == "visiting" %}
+    <div class="member-card">
+      <img src="{{ '/assets/images/' | append: member.image | relative_url }}" alt="{{ member.name }}" />
+      <div class="member-info">
+        <h3>{{ member.name }}</h3>
+        <p><strong>Position:</strong> {{ member.position }}</p>
+        <p><strong>Expertise:</strong> {{ member.expertise }}</p>
       </div>
     </div>
     {% endif %}

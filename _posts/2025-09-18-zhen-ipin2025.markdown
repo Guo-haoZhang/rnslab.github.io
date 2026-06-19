@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Our PhD student Zhen Lyu presents his research and wins Best Poster Award at the 15th International Conference on Indoor Positioning and Navigation (IPIN 2025)"
+date: 2025-09-18 00:00:00 +0800
+categories: news
+---
+
+![ENC 2026]({{ '/assets/news/Best Poster Award_1.png' | relative_url }})
+
+We are pleased to share that AAE student Mr LYU Zhen excelled at the 15th International Conference on Indoor Positioning and Navigation (IPIN 2025), held in Tampere, Finland during 15 - 18 September 2025. His innovative work was voted for the "Best Poster Award" by all the conference attendees.
+
+The award-winning research, titled "Enhanced Radio SLAM Algorithm Based on Architectural Geometric Constraints", introduces an innovative navigation method that utilises building floor plans to locate Wi-Fi access points in unknown areas rapidly. Mr Lyu's work demonstrates how architectural features can be leveraged to enhance positioning capabilities, offering a new environmental perception for indoor positioning services. This research is particularly applicable to smart buildings, indoor navigation, and other fields requiring precise perception in complex environments.
